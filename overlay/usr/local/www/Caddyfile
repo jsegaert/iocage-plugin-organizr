@@ -1,0 +1,6 @@
+*:80 {
+    gzip
+    root /usr/local/www/organizr/
+    fastcgi / localhost:9000 php
+}
+
